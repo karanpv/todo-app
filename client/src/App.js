@@ -25,7 +25,7 @@ const App = () => {
     if (authToken) {
       getData();
     }
-  }, [authToken]);
+  }, [authToken, getData]);
 
   console.log(tasks);
 
